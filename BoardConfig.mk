@@ -91,7 +91,7 @@ TW_INCLUDE_FB2PNG := true
 TW_MTP_DEVICE := "/dev/mtp_usb"
 
 # USB Storage
-TW_NO_USB_STORAGE := true
+#TW_NO_USB_STORAGE := true
 
 # Logs
 TARGET_USES_LOGD := true
