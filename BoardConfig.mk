@@ -69,9 +69,6 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 #TW_DEFAULT_LANGUAGE := zh_CN
 #TW_EXTRA_LANGUAGES := true
 
-# Fix TOUCHSCREEN
-# RECOVERY_TOUCHSCREEN_FLIP_Y := false
-
 # Very important for this device
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_EXCLUDE_ENCRYPTED_BACKUPS := false
@@ -89,9 +86,6 @@ TW_INCLUDE_FB2PNG := true
 # MTP
 # TW_EXCLUDE_MTP := true
 TW_MTP_DEVICE := "/dev/mtp_usb"
-
-# USB Storage
-#TW_NO_USB_STORAGE := true
 
 # Logs
 TARGET_USES_LOGD := true
