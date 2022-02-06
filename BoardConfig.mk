@@ -97,8 +97,6 @@ ARCH_ARM_HAVE_NEON := true
 # Backup data/media
 TW_BACKUP_DATA_MEDIA := true
 
-TW_DEVICE_VERSION := $(shell date -u +"%Y%m%d"-"MT8167_BOE"-"ycly2333")
-
 # exFAT FS Support
 TW_INCLUDE_FUSE_EXFAT := true
 
